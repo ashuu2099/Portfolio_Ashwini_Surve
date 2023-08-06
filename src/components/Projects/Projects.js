@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import cryptohub from "../../Assets/Projects/cryptohub.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import pizzabox from "../../Assets/Projects/pizzabox.png";
 import taskify from "../../Assets/Projects/taskify.png";
 import passgene from "../../Assets/Projects/passgene.png";
