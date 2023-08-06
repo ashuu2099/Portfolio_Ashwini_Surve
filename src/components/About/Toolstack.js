@@ -3,10 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiPowerbi,
   SiGithub,
-  SiGitlab,
-  SiIntellijidea,
+  SiEclipseide,
   SiPycharm,
 } from "react-icons/si";
 
@@ -23,17 +21,11 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGitlab />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
+        <SiEclipseide />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPycharm />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
-      </Col>
+      </Col>  
     </Row>
   );
 }
